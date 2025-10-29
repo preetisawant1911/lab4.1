@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Lab 4.1 – JavaScript Tasks
+=======
+Lab 4.1 – JavaScript Tasks
+>>>>>>> 220c5a7c98641f9c2d8429cfd50ed7d1d5fea94b
 
 This repository contains four basic JavaScript tasks with separate folders for each. Each task includes a simple HTML page and a linked JavaScript file.
 
