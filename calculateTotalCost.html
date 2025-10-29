@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2: Calculate Total Cost</title>
+  <link rel="stylesheet" href="t1.css" />
+
+</head>
+<body>
+  <h1>Calculate Total Cost</h1>
+
+  <label for="price">Price:</label>
+  <input type="number" id="price" placeholder="Enter price"><br><br>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" placeholder="Enter quantity"><br><br>
+
+  <label for="taxRate">Tax Rate (default is 6% for Michigan):</label>
+  <input type="number" step="0.01" id="taxRate" placeholder="Enter tax rate (optional)"><br><br>
+
+  <button onclick="handleCost()">Calculate</button>
+
+  <p id="result"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
